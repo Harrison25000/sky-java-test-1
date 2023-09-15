@@ -62,5 +62,20 @@ public class IterationExample {
             numbers += w;
             w++;
         } while (w < 10);
+
+        int rocket = 10;
+        while (rocket > 0) {
+            System.out.println(rocket--);
+        }
+        System.out.println("Lift off");
+
+        int hmm = 10;
+        while (hmm > 0) {
+            System.out.println("hmm is " + hmm--);
+        }
+
+        int sumNum = 0;
+        for (int i = 0; i < 10; sumNum += i++);
+        System.out.println("SumNum is " + sumNum);
     }
 }
